@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylestopwatch.css">
+    <title>Stopwatch</title>
+    <style>
+        body {
+            background-image: url('C:\Users\dell\Desktop\watch.jpg');
+            /* You might need to use double backslashes for Windows file paths */
+            background-size: cover; /* Adjust as needed */
+        }
+    </style>
+     </head>
+<body>
+   <br> <div class="stopwatch">
+       <br><center> <div class="time" id="display">00:00:00</div> </center>
+       <br> <center><button id="startStop" onclick="startStop()">Start</button> <br> </center>
+    <center> <br> <button id="reset" onclick="reset()">Reset</button> <br></center>
+<center>  <br> <button id="lap" onclick="lap()">Lap</button></center>
+    </div>
+    <div class="laps">
+       <center> <h2>Lap Times</h2></center>
+        <ul id="lapList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body> 
+</html>

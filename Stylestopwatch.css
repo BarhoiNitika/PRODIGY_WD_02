@@ -1,0 +1,62 @@
+Style.css
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    background-image: url('watch.jpg'); /* Replace 'your-image.jpg' with the actual image file path */
+    background-size: cover; /* This will scale the image to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+
+   }
+
+   body {
+       background-image: url('C:\\Users\\dell\\Desktop\\watch.jpg');
+       /* You might need to use double backslashes for Windows file paths */
+       background-size: cover; /* Adjust as needed */
+   }
+
+.stopwatch {
+    background-color: rgb(247, 231, 231);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.time {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+.laps {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 550px;
+    box-shadow: 0 0 10px rgba(218, 67, 67, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 20;
+}
+
+li {
+    font-size: 15px;
+    margin: 5px 0;
+}
